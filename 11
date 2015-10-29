@@ -1,0 +1,19 @@
+<View>
+                      <View>
+                          <Text style={{fontSize:17,color:'#EA6644',marginTop:7,marginLeft:5}}>男女搭配</Text>
+                          <Text style={{fontSize:12,color:'#97979A',marginTop:,marginLeft:5}}>齐心对抗地震</Text>
+                      <View>
+                      <View>
+                          <Image></Image>
+                      </View>
+                  </View>
+                  
+                  <View>
+                      <View>
+                          <Text>六月玩嗨</Text>
+                          <Text>端午出行攻略</Text>
+                      <View>
+                      <View>
+                          <Image></Image>
+                      </View>
+                  </View>
