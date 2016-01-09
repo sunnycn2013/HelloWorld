@@ -18,7 +18,7 @@ var sliderImgs = [
     'http://m.360buyimg.com/mobilecms/s750x410_jfs/t2326/263/687562306/170970/c3f92c7/5620cbddNaa6a2cda.jpg!q70.jpg',
     'http://m.360buyimg.com/mobilecms/s750x410_jfs/t1891/237/637408747/193879/1acee0f7/5620be19N801621e4.jpg!q70.jpg'
 ];
-var urlPath = 'http://ccguo.gitcafe.io/cut.json';
+var urlPath = 'http://sunnycn.gitcafe.io/ccguo/cut.json';
 
 var detail = require('./Detail');
 var CACHE = [];
