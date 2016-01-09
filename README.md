@@ -43,7 +43,7 @@ tags:
 下面介绍一个简单的demo操作，这个教程一起带你去体验一下京东促销砍啊砍页面的OC->React 移植过程，通过本教程你就可以了解React Native的一些基本开发流程了。
 效果：
 <div>
-<img class="shadow" width="728" height="426" src="../../../../img/in-post/post-react-native-cut/react-native-01.png" />
+<img class="shadow" width="728" height="426" src="http://sunnycn.gitcafe.io/images/2015-12-16/post-react-native-cut/react-native-01.png" />
 </div>
 
 如果你之前从未写过任何 JavaScript ，别担心；这篇教程带着你一点一点编写代码。React 使用 CSS 属性来定义样式，这些样式通常都很易于阅读和理解，但是如果你想进一步了解，可以参考:。
@@ -53,11 +53,10 @@ tags:
 React native 关于环境搭建问题此处就不多说了，详情请见[React native基础教程](http://www.cnblogs.com/vczero/p/react-native.html),此处就从我们已经准备好一切前序工作开始，万事具备只欠东风，下面开始:
 
 首先React Native 启动画面开始，创建helloworld工程，启动画面如下：
-<img class="shadow" width="320" height="568" src="../../../../img/in-post/post-react-native-cut/ReactNative-Starter.png" />
+<img class="shadow" width="320" height="568" src="http://sunnycn.gitcafe.io/images/2015-12-16/post-react-native-cut/ReactNative-Starter.png" />
 
 与此同时Xcode还会打开一个终端窗口，并显示如下信息：
-
-<img class="shadow" width="580" height="364" src="../../../../img/in-post/post-react-native-cut/termial.png" />
+<img class="shadow" width="580" height="364" src="http://sunnycn.gitcafe.io/images/2015-12-16/post-react-native-cut/termial.png" />
 
 这是React Navtive Packager，它在node容器中运行。你待会就会发现它的用处。
 千万不要关闭这个窗口，让它一直运行在后面。如果你意外关闭它，可以在Xcode中先停止程序，再重新运行程序。
@@ -151,7 +150,7 @@ var Home = React.createClass({
 ```
 
 Home 我们只放了一个按钮，按钮文字“go to cut”，另外添加了一个点击触摸事件，事件相应题是goToNext:function();   在函数处理事件内部，我们只做了页面的push跳转，目标页面是cutList页面，运行效果如下：
-<img class="shadow" width="320" height="568" src="../../../../img/in-post/post-react-native-cut/react-native-00.png" />
+<img class="shadow" width="320" height="568" src="http://sunnycn.gitcafe.io/images/2015-12-16/post-react-native-cut/react-native-00.png" />
 
 
 ### 构建砍啊砍List页面，从网络获取数据，绘制table绑定事件
@@ -240,7 +239,7 @@ getInitialState:function()类似于OC中的init函数，我们一般的习惯喜
 
 ```
 //定义request url 
-var urlPath = 'http://ccguo.gitcafe.io/cut.json';
+var urlPath = 'http://sunnycn.gitcafe.io/ccguo/cut.json';
 var CACHE = [];
 
 //componentDidMount:function  系统方法
@@ -336,8 +335,7 @@ TouchableHighlight事件处理action同样是一个函数（不解释），在_p
 _renderRow:function(data,sectionID,rowID)。
 
 整体运行效果如下：
-<img class="shadow" width="320" height="568" src="../../../../img/in-post/post-react-native-cut/react-native-02.png" />
-
+<img class="shadow" width="320" height="568" src="http://sunnycn.gitcafe.io/images/2015-12-16/post-react-native-cut/react-native-02.png" />
 
 ####处理cell跳转事件
 
@@ -366,8 +364,8 @@ React在处理事件跳转的时间，仍旧采用进栈出栈的形式，这一
 ```
 到了目标页面后，我们直接从props容器直接根据key就能将传递的参数去处，此处我们传递参数的本身是一个json,我们只是讲wname显示到detail页面。
 效果如下：
-<img class="shadow" width="320" height="568" src="../../../../img/in-post/post-react-native-cut/react-native-03.png" />
-<img class="shadow" width="580" height="368" src="../../../../img/in-post/post-react-native-cut/react-native-01.png" />
+<img class="shadow" width="320" height="568" src="http://sunnycn.gitcafe.io/images/2015-12-16/post-react-native-cut/react-native-03.png" />
+<img class="shadow" width="580" height="368" src="http://sunnycn.gitcafe.io/images/2015-12-16/post-react-native-cut/react-native-01.png" />
 
 ###接下来做什么
 
